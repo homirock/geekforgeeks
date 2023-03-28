@@ -7,7 +7,7 @@
 // A[] = {1, 2, 4, 5, 8, 10}
 // X = 9
 // Output:
-// 5
+// 5.
 package main
 
 import "fmt"
