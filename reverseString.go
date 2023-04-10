@@ -6,11 +6,12 @@ import "fmt"
 
 // function, which takes a string as
 // argument and return the reverse of string.
-func reverse(str string) (result string) {
+func reverse(str string) string{
+	result:=""
 	for _, v := range str {
 		result = string(v) + result
 	}
-	return
+	return result
 }
 
 func main() {
@@ -19,7 +20,8 @@ func main() {
 	str := "Geeks"
 
 	// returns the reversed string.
-	strRev := reverse(str)
-	fmt.Println(str)
-	fmt.Println(strRev)
+	 reverse:=reverse(str)
+	 fmt.Println("string:",str)
+	 fmt.Println("reverse:",reverse)
+	
 }
